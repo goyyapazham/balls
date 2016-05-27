@@ -1,11 +1,7 @@
-class Ball {
+class Ball extends PShape {
   
-  double xspeed;
-  double yspeed;
-  
-  Ball() {
-    xpeed = 1.0;
-    yspeed = 1.0;
+  Ball(int xstart, int ystart, int xrad, int yrad) {
+    ellipse(xstart, ystart, xrad, yrad);
   }
   
 }
